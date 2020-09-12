@@ -13,7 +13,7 @@ def input_to_index(user_input)
 end
 
 def converted_input
-  converted_input.to_i = (user_input - 1)
+  converted_input = (user_input - 1)
 end
 
 def update_array_at_with(array, index, value)
