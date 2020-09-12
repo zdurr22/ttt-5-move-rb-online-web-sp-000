@@ -16,7 +16,6 @@ def converted_input
   converted_input = (user_input - 1).to_i
 end
 
-end
 def update_array_at_with(array, index, value)
   array[index] = value
 end
