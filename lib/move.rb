@@ -15,6 +15,7 @@ end
 def move(array, index, value="X")
   array[index] = value
 end
+
 puts "Welcome to Tic Tac Toe!"
 
 move(board, 0, "X")
